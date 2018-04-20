@@ -1,6 +1,6 @@
-[Development Guidelines](../../README.md) / [Coding](../../README.md#coding) 
+[Development Guidelines](../../../README.md) / [Coding](../../../README.md#coding) 
 
-## [General](../../README.md#coding_general)
+## [General](../../../README.md#coding_general)
 
 - Adopt a consistent format that is easy to read and maintain.
 - Adopt consistent naming conventions.
