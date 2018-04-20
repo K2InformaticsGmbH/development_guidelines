@@ -1,4 +1,4 @@
-# [Coding](../README.md) - General
+# [Coding](README.md) - General
 
 - Adopt a consistent format that is easy to read and maintain.
 - Adopt consistent naming conventions.
