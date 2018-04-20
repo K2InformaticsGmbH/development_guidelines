@@ -8,7 +8,7 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 ## Coding
 
-#### [General](doc/coding_general/general.md)
+#### [General<a name="coding_general"></a>](doc/coding_general/general.md)
 
 #### Erlang
 
