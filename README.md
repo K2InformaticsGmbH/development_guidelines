@@ -1,4 +1,4 @@
-# development_guidelines
+# Development Guidelines
 Development guidelines for the open source projects of K2 Informatics GmbH.
 
 
@@ -8,11 +8,11 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 ## Coding
 
-#### [General](doc/coding_general.md)
+#### [General](doc/coding_general/general.md)
 
 #### Erlang
 
-#### PL/SQL
+#### [PL/SQL](doc/coding_pl_sql/pl sql.md)
 
 ## Continuous Integration
 
