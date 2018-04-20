@@ -2,26 +2,34 @@
 Development guidelines for the open source projects of K2 Informatics GmbH.
 
 
-## Building
+## Building <a name="building"></a>
 
-#### rebar3
+&ensp; TBD
 
-## Coding
+[comment]: <> (### &ensp; rebar3 <a name="building_rebar3"></a>)
 
-#### [General<a name="coding_general"></a>](doc/coding_general/general.md)
+## Coding <a name="coding"></a>
 
-#### Erlang
+### &ensp; [General](doc/coding/general/general.md)<a name="coding_general"></a>
 
-#### [PL/SQL](doc/coding_pl_sql/pl sql.md)
+[comment]: <> (### &ensp; Erlang <a name="coding_erlang"></a>)
 
-## Continuous Integration
+### &ensp; PL/SQL <a name="coding_pl_sql"></a>
 
-#### Travis CI
+#### &ensp;&ensp;&ensp; [Coding Style <a name="coding_pl_sql_coding_style"></a>](doc/coding/pl_sql/coding_style.md)
 
-## Version Control
+#### &ensp;&ensp;&ensp; [Naming Conventions <a name="coding_pl_sql_naming_conventions"></a>](doc/coding/pl_sql/naming_conventions.md)
 
-#### Git
+## Continuous Integration <a name="continuous_integration"></a>
+
+### &ensp; Travis CI <a name="continuous_integration_travis_ci"></a>
+
+#### &ensp;&ensp;&ensp; [Erlang <a name="continuous_integration_travis_ci_erlang"></a>](doc/travis_ci/erlang.md)
+
+## Version Control <a name="version_control"></a>
+
+&ensp; TBD
+
+[comment]: <> (### &ensp; [Git <a name="version_control_git"></a>])
  
-#### GitHub
-
-
+[comment]: <> (### &ensp; [GitHub <a name="version_control_github"></a>])
