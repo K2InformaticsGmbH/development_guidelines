@@ -6,13 +6,13 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 &ensp; TBD
 
-[comment]: <> (### &ensp; rebar3 <a name="building_rebar3"></a>)
+[//]: # (### &ensp; rebar3 <a name="building_rebar3"></a>)
 
 ## Coding <a name="coding"></a>
 
 ### &ensp; [General](doc/coding/general/general.md) <a name="coding_general"></a>
 
-[comment]: <> (### &ensp; Erlang <a name="coding_erlang"></a>)
+[//]: # (### &ensp; Erlang <a name="coding_erlang"></a>)
 
 ### &ensp; PL/SQL <a name="coding_pl_sql"></a>
 
@@ -30,6 +30,6 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 &ensp; TBD
 
-[comment]: <> (### &ensp; Git <a name="version_control_git"></a>)
+[//]: # (### &ensp; Git <a name="version_control_git"></a>)
  
-[comment]: <> (### &ensp; GitHub <a name="version_control_github"></a>)
+[//]: # (### &ensp; GitHub <a name="version_control_github"></a>)
