@@ -1,8 +1,6 @@
-# [Development Guidelines](../../README.md#coding_general)
+[Development Guidelines](../../README.md) / [Coding](../../README.md#coding) / [PL/SQL](../../README.md#coding_pl_sql)
 
-## [Coding](../../README.md)
-
-### General
+## [Naming Conventions](../../README.md#coding_pl_sql_naming_conventions)
 
 - Adopt a consistent format that is easy to read and maintain.
 - Adopt consistent naming conventions.
