@@ -1,6 +1,6 @@
-[Development Guidelines](../../../../README.md) / [Coding](../../../../README.md#coding) / [PL/SQL](../../../../README.md#coding_pl_sql) / [Coding Style](../../../../README.md#coding_pl_sql_coding_style)
+[Development Guidelines](../../../../README.md) / [Coding](../../../../README.md#coding) / [PL/SQL](../../../../README.md#coding_pl_sql) / [Coding Style](../../../../doc/coding/coding_style.md)
 
-## [Tag module `END` statements with module names](../Coding_Style.md#TagEnd)
+## [Tag module `END` statements with module names](../../../../doc/coding/coding_style.md#TagEnd)
 
 Every program has an `END` statement. Append the name of the program to the end statement:
 
