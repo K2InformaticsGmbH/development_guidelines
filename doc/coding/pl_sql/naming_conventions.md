@@ -23,10 +23,8 @@ Any other SQL | sql
 #### Must
 
 - The total **length** of an identifier name is limited to 30 characters.
-- Organise **like items** together.
 - Make **plural** anything that contains multiple pieces of information. 
 - Name **procedures** with verb phrases and **functions** with noun phrases.
-- **Qualify** all column names and variable names inside SQL in PL/SQL.
 - If you have more than one **record** declared for a single cursor, preface the record name with a word that describes it,
 - The **root name** of the identifier is the part of the identifier name that describes concisely and accurately the meaning of the thing named.
 - The **scope prefix** (SC) is either `g_` for global, `l_` for local or `p_` for parameters.
