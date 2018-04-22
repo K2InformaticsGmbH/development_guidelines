@@ -3,3 +3,4 @@
 ## [Coding Style](../../../README.md#coding_pl_sql_coding_style)
 
 - Tag module `END` statements with module names. [(Details)](coding_style/TagEND.md) <a name="TagEnd"></a>
+- Use block and loop labels. [(Details)](coding_style/UseLabels.md) <a name="UseLabels"></a>
