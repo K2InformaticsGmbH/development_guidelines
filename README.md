@@ -10,7 +10,15 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 ## Coding <a name="coding"></a>
 
-### &ensp; [General](doc/coding/general/general.md) <a name="coding_general"></a>
+### &ensp; In general
+
+- Adopt a consistent format that is easy to read and maintain.
+- Adopt consistent naming conventions.
+- Comment tersely with value-added information.
+- Test your programs thoroughly, and as automatically as possible. 
+- Follow the test-driven development methodology.
+- Don't worry about  getting to 100% test coverage - 99% will do.
+- Use source code debuggers to hunt down the cause of bugs.
 
 [//]: # (### &ensp; Erlang <a name="coding_erlang"></a>)
 
@@ -33,3 +41,11 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 [//]: # (### &ensp; Git <a name="version_control_git"></a>)
  
 [//]: # (### &ensp; GitHub <a name="version_control_github"></a>)
+
+## References
+
+- [Coding Standards for SQL and PL/SQL](http://williamrobertson.net/documents/plsqlcodingstandards.html)
+
+- [PL/SQL Naming Conventions and Coding Standards (Oracle Developrer Community)](https://community.oracle.com/docs/DOC-1007838)
+
+- [Variables Best Practices - Naming Conventions (Toad world - Oracle Community](https://community.toadworld.com/platforms/oracle/w/wiki/4844.variables-best-practices-naming-conventions)
