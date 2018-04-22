@@ -1,14 +1,21 @@
 # Development Guidelines
 Development guidelines for the open source projects of K2 Informatics GmbH.
 
+#### Why have standards?
 
-## Building <a name="building"></a>
+- Better code
+- Clearer understanding
+- Easier maintenance
+- Easier to use
+- Fewer decisions to make
+
+## 1. Building <a name="building"></a>
 
 &ensp; TBD
 
 [//]: # (### &ensp; rebar3 <a name="building_rebar3"></a>)
 
-## Coding <a name="coding"></a>
+## 2. Coding <a name="coding"></a>
 
 ### &ensp; In general
 
@@ -28,13 +35,13 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 #### &ensp;&ensp;&ensp; [Naming Conventions](doc/coding/pl_sql/naming_conventions.md) <a name="coding_pl_sql_naming_conventions"></a>
 
-## Continuous Integration <a name="continuous_integration"></a>
+## 3. Continuous Integration <a name="continuous_integration"></a>
 
 ### &ensp; Travis CI <a name="continuous_integration_travis_ci"></a>
 
 #### &ensp;&ensp;&ensp; [Erlang](doc/continuous_integration/travis_ci/erlang.md) <a name="continuous_integration_travis_ci_erlang"></a> 
 
-## Version Control <a name="version_control"></a>
+## 4. Version Control <a name="version_control"></a>
 
 &ensp; TBD
 
@@ -42,7 +49,7 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
  
 [//]: # (### &ensp; GitHub <a name="version_control_github"></a>)
 
-## References
+## Appendix: References
 
 - [Coding Standards for SQL and PL/SQL](http://williamrobertson.net/documents/plsqlcodingstandards.html)
 
