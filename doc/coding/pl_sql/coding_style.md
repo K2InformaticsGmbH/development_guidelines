@@ -2,4 +2,4 @@
 
 ## [Coding Style](../../../README.md#coding_pl_sql_coding_style)
 
-- Tag module `END` statements with module names. [(Details)](doc/coding/pl_sql/coding_style/TagEND.md) <a name="TagEnd"></a>
+- Tag module `END` statements with module names. [(Details)](coding_style/TagEND.md) <a name="TagEnd"></a>
