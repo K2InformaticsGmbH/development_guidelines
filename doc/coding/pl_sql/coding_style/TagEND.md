@@ -2,7 +2,7 @@
 
 ## [Tag module `END` statements with module names](../Coding_Style.md#TagEnd)
 
-Every program has an `END` statement. You must append the name of the program to the end statement:
+Every program has an `END` statement. Append the name of the program to the end statement:
 
 ```pl/sql
 CREATE OR REPLACE PACKAGE BODY <pkgname>
