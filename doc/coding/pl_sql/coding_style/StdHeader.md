@@ -47,11 +47,11 @@ ALL_SOURCE data dictionary view
 <EXCEPTIONS>None</EXCEPTIONS>
 
 Modification History
-Date By Modification
+Date       By        Modification
 ---------- --------- -------------------------------
 <MODIFICATIONS>
-06/30/2017 SOC Change to XML-compatible syntax
-06/07/2016 SOC Program created
+06/30/2017 SOC       Change to XML-compatible syntax
+06/07/2016 SOC       Program created
 </MODIFICATIONS>
 */
 ```
