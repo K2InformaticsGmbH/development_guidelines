@@ -11,9 +11,16 @@
 #### Variables and Data Structures
 
 - Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Beware of and avoid implicit datatype conversions. [(Details)](coding_style/NoImplicit.md) <a name="NoImplicit"></a>
+- Centralize `TYPE` definitions in package specifications. [(Details)](coding_style/CentralizeTypes.md) <a name="CentralizeTypes"></a>
+- Clean up data structures when your program terminates (successfully or with an error). [(Details)](coding_style/CleanUpDS.md) <a name="CleanUpDS"></a>
 - Do not hard-code `VARCHAR2` lengths. [(Details)](coding_style/HardcodeVarchar2.md) <a name="HardcodeVarchar2"></a>
+- Do not overload data structure usage. [(Details)](coding_style/OverloadDS.md) <a name="OverloadDS"></a>
 - Match datatypes to computational usage. [(Details)](coding_style/MatchDataTypes.md) <a name="MatchDataTypes"></a>
+- Package application-named literal constants together. [(Details)](coding_style/PackAppConst.md) <a name="PackAppConst"></a>
 - Perform complex variable initialization in the executable section. [(Details)](coding_style/ComplexExec.md) <a name="ComplexExec"></a>
+- Remove unused variables and code. [(Details)](coding_style/RemoveUnused.md) <a name="RemoveUnused"></a>
 - Replace complex expressions with Boolean variables and functions. [(Details)](coding_style/ComplexBoolean.md) <a name="ComplexBoolean"></a>
 - Use `CONSTANT` declarations for variables whose values do not change. [(Details)](coding_style/UseConstant.md) <a name="UseConstant"></a>
 - Use `SUBTYPE` to standardize application-specific datatypes. [(Details)](coding_style/UseSubtype.md) <a name="UseSubtype"></a>
+- Use package globals judiciously and only in package bodies. [(Details)](coding_style/PackageGlobals.md) <a name="PackageGlobals"></a>
