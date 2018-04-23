@@ -15,7 +15,7 @@ While you should generally keep comments to a minimum in your code, it's extreme
 
 Define this header after the `IS` or `AS` keyword in your program definition. For example:
 
-```pl/sql
+```PLSQL
 CREATE OR REPLACE PROCEDURE my_procedure
 IS
 /*
@@ -25,7 +25,7 @@ IS
 
 #### Template header:
 
-```PL/SQL
+```PLSQL
 /*
 <VERSION>1.0.5</VERSION>
 <FILENAME>stdhdr.pkg</FILENAME>
