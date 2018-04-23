@@ -1,6 +1,6 @@
 [Development Guidelines](../../../../README.md) / [Coding](../../../../README.md#coding) / [PL/SQL](../../../../README.md#coding_pl_sql) / [Coding Style](../../../../doc/coding/pl_sql/coding_style.md)
 
-## [Use block and loop labels.](../../../../doc/coding/pl_sql/coding_style.md#UseLabels)
+## [Use block and loop labels](../../../../doc/coding/pl_sql/coding_style.md#UseLabels)
 
 Use a label directly in front of loops and nested anonymous blocks:
 - To name that portion of code and thereby self-document what it's doing
