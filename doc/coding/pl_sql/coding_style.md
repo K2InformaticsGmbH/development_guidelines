@@ -28,9 +28,12 @@
 
 #### Control Structures
 
+- Move static expressions outside of loops and SQL statements. [(Details)](coding_style/StaticLoop.md) <a name="StaticLoop"></a>
 - Never `EXIT` or `RETURN` from `WHILE` and `FOR` loops. [(Details)](coding_style/NeverExit.md) <a name="NeverExit"></a>
+- Never declare the `FOR` loop index. [(Details)](coding_style/NeverForLoop.md) <a name="NeverForLoop"></a>
 - Replace and simplify `IF` statements with Boolean expressions. [(Details)](coding_style/IfByBoolean.md) <a name="IfByBoolean"></a>
+- Scan collections using `FIRST`, `LAST`, and `NEXT` in loops. [(Details)](coding_style/FirstLastNext.md) <a name="FirstLastNext"></a>
 - Use `ELSIF` with mutually exclusive clauses. [(Details)](coding_style/ElseIfMutually.md) <a name="ElseIfMutually"></a>
 - Use `IF`...`ELSIF` only to test a single, simple condition. [(Details)](coding_style/ElseIfSimple.md) <a name="ElseIfSimple"></a>
+- Use a simple loop to avoid redundant code required by a `WHILE` loop. [(Details)](coding_style/SimpleLoop.md) <a name="SimpleLoop"></a>
 - Use a single `EXIT` in simple loops. [(Details)](coding_style/SimpleExit.md) <a name="SimpleExit"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
