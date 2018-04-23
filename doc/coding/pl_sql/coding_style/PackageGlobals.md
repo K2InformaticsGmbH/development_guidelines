@@ -1,6 +1,6 @@
 [Development Guidelines](../../../../README.md) / [Coding](../../../../README.md#coding) / [PL/SQL](../../../../README.md#coding_pl_sql) / [Coding Style](../../../../doc/coding/pl_sql/coding_style.md)
 
-## [Clean up data structures when your program terminates (successfully or with an error)](../../../../doc/coding/pl_sql/coding_style.md#PackageGlobals)
+## [Use package globals judiciously and only in package bodies](../../../../doc/coding/pl_sql/coding_style.md#PackageGlobals)
 
 A global variable is a data structure that can be referenced outside the scope or block in which it's declared. In the following block, for example, the `l_publish_date` is global to the local `display_book_info` procedure:
 
