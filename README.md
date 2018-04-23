@@ -53,8 +53,8 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 - [Coding Standards for SQL and PL/SQL](http://williamrobertson.net/documents/plsqlcodingstandards.html)
 
-- [PL/SQL Naming Conventions and Coding Standards (Oracle Developrer Community)](https://community.oracle.com/docs/DOC-1007838)
+- Steven **Feuerstein**, Oracle PL/SQL Best Practises, O'Reilly & Associates, 2001
 
-- Steven Feuerstein, Oracle PL/SQL Best Practises, O'Reilly & Associates, 2001
+- [PL/SQL Naming Conventions and Coding Standards (Oracle Developrer Community)](https://community.oracle.com/docs/DOC-1007838)
 
 - [Variables Best Practices - Naming Conventions (Toad world - Oracle Community](https://community.toadworld.com/platforms/oracle/w/wiki/4844.variables-best-practices-naming-conventions)
