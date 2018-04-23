@@ -1,6 +1,6 @@
 [Development Guidelines](../../../../README.md) / [Coding](../../../../README.md#coding) / [PL/SQL](../../../../README.md#coding_pl_sql) / [Coding Style](../../../../doc/coding/pl_sql/coding_style.md)
 
-## [Use `SUBTYPE` to standardize application-specific datatypes](../../../../doc/coding/pl_sql/coding_style.md#SubType)
+## [Use `SUBTYPE` to standardize application-specific datatypes](../../../../doc/coding/pl_sql/coding_style.md#UseSubtype)
 
 The `SUBTYPE` statement allows you to create "aliases" for existing types of information, in effect creating your own specially named datatypes. Use `SUBTYPE` when you want to standardize on a set of named datatypes that aren't anchorable back to the database.
 
