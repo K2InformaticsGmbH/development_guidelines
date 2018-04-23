@@ -37,3 +37,22 @@
 - Use `IF`...`ELSIF` only to test a single, simple condition. [(Details)](coding_style/ElseIfSimple.md) <a name="ElseIfSimple"></a>
 - Use a simple loop to avoid redundant code required by a `WHILE` loop. [(Details)](coding_style/SimpleLoop.md) <a name="SimpleLoop"></a>
 - Use a single `EXIT` in simple loops. [(Details)](coding_style/SimpleExit.md) <a name="SimpleExit"></a>
+- Use anonymous blocks within `IF` statements to conserve resources. [(Details)](coding_style/AnonymousIf.md) <a name="AnonymousIf"></a>
+
+#### Exception Handling
+
+- Set guidelines for application-wide error handling before you start coding. [(Details)](coding_style/ExceptionGuide.md) <a name="ExceptionGuide"></a>
+
+#### Writing SQL in PL/SQL
+
+
+#### Program Construction
+
+
+#### Package Construction
+
+
+#### Built-in Packages
+
+
+
