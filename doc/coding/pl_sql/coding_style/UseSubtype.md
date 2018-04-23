@@ -8,7 +8,7 @@ The `SUBTYPE` statement allows you to create "aliases" for existing types of inf
 
 Define the `SUBTYPE`
 
-```pl/sql
+```PLSQL
 CREATE OR REPLACE PACKAGE book_data
 IS
     SUBTYPE total_count_t IS INTEGER (10);
@@ -16,7 +16,7 @@ IS
 
 and then use that in the declaration section:
 
-```pl/sql
+```PLSQL
 DECLARE
 l_total book_data.total_count_t;
 ```

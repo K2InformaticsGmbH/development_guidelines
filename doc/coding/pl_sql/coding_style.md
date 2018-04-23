@@ -13,4 +13,7 @@
 - Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
 - Do not hard-code `VARCHAR2` lengths. [(Details)](coding_style/HardcodeVarchar2.md) <a name="HardcodeVarchar2"></a>
 - Match datatypes to computational usage. [(Details)](coding_style/MatchDataTypes.md) <a name="MatchDataTypes"></a>
+- Perform complex variable initialization in the executable section. [(Details)](coding_style/ComplexExec.md) <a name="ComplexExec"></a>
+- Replace complex expressions with Boolean variables and functions. [(Details)](coding_style/ComplexBoolean.md) <a name="ComplexBoolean"></a>
+- Use `CONSTANT` declarations for variables whose values do not change. [(Details)](coding_style/UseConstant.md) <a name="UseConstant"></a>
 - Use `SUBTYPE` to standardize application-specific datatypes. [(Details)](coding_style/UseSubtype.md) <a name="UseSubtype"></a>

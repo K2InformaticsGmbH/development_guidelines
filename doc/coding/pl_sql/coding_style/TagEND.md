@@ -4,7 +4,7 @@
 
 Every program has an `END` statement. Append the name of the program to the end statement:
 
-```pl/sql
+```PLSQL
 CREATE OR REPLACE PACKAGE BODY <pkgname>
 IS
     FUNCTION <funcname> (...)

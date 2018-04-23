@@ -8,7 +8,7 @@ Use a label directly in front of loops and nested anonymous blocks:
 
 This is especially important when you have multiple nestings of loops as in the following:
 
-```pl/sql
+```PLSQL
 LOOP
     <body>
     WHILE <condition>
