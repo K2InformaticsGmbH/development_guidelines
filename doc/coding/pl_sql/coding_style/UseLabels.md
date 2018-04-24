@@ -13,7 +13,34 @@ LOOP
     <body>
     WHILE <condition>
     LOOP
-        while body>
+        <while body>
     END LOOP;    
 END LOOP;
+```
+
+#### Example:
+
+```PLSQL
+CREATE OR REPLACE PROCEDURE display_book_usage
+IS
+BEGIN
+    <<best_seller_review>>
+    DECLARE
+        CURSOR yearly_analysis_cur IS SELECT ...;
+        CURSOR monthly_analysis_cur IS SELECT ...;
+    BEGIN
+        <<yearly_analysis>>
+        FOR book_rec IN yearly_analysis_cur (2000)
+        LOOP
+            <<monthly_analysis>>
+            FOR month_rec IN
+                monthly_analysis_cur (
+                    yearly_analysis_cur%rowcount)
+            LOOP
+            ... lots of month-related code ...
+            END LOOP monthly_analysis;
+            ... lots of year-related code ...
+        END LOOP yearly_analysis;
+    END best_seller_review;
+END display_book_usage;
 ```
