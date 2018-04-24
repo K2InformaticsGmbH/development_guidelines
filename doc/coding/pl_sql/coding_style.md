@@ -120,8 +120,8 @@
 
 #### Program Construction: Functions
 
-- Limit functions to a single `RETURN` statement in the execution section. [(Details)](coding_style/SingleReturn.md) <a name="SingleReturn"></a>
 - Keep functions pure by avoiding [`IN`] `OUT` parameters. [(Details)](coding_style/PureFunctions.md) <a name="PureFunctions"></a>
+- Limit functions to a single `RETURN` statement in the execution section. [(Details)](coding_style/SingleReturn.md) <a name="SingleReturn"></a>
 - Never return `NULL` from Boolean functions. [(Details)](coding_style/NeverNull.md) <a name="NeverNull"></a>
 
 #### Program Construction: Triggers
