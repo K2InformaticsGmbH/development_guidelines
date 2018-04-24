@@ -3,4 +3,4 @@
 ## [Do not hard-code `VARCHAR2` lengths](../../../../doc/coding/pl_sql/coding_style.md#HardcodeVarchar2)
 
 In general, you shouldn't hard-code your datatypes; instead, you should rely
-on anchoring and `SUBTYPE`s.
+on anchoring and `SUBTYPEs`.
