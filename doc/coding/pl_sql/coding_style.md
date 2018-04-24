@@ -51,6 +51,18 @@
 
 #### Package Construction
 
+- Avoid bloating package code with unnecessary but easy-to-build modules. [(Details)](coding_style/AvoidBloating.md) <a name="AvoidBloating"></a>
+- Build trace "windows" into your packages using standardized programs. [(Details)](coding_style/PackageTrace.md) <a name="PackageTrace"></a>
+- Consolidate the implementation of related overloaded modules. [(Details)](coding_style/ConsolidateOverloading.md) <a name="ConsolidateOverloading"></a>
+- Freeze and build package specifications before implementing package bodies. [(Details)](coding_style/PackageSpec.md) <a name="PackageSpec"></a>
+- Group related data structures and functionality together in a single package. [(Details)](coding_style/GroupRelated.md) <a name="GroupRelated"></a>
+- Implement flexible, user-adjustable functionality using package state toggles and related techniques. [(Details)](coding_style/AdjustablePackage.md) <a name="AdjustablePackage"></a>
+- Insulate applications from Oracle version sensitivity using version-specific implementations. [(Details)](coding_style/VersionSpecific.md) <a name="VersionSpecific"></a>
+- Provide well-defined interfaces to business data and functional manipulation using packages. [(Details)](coding_style/InterfacePackage.md) <a name="InterfacePackage"></a>
+- Separate package specifications and bodies into different source code files. [(Details)](coding_style/SeparateSpecBody.md) <a name="SeparateSpecBody"></a>
+- Simplify and encourage module usage using overloading to widen calling options. [(Details)](coding_style/UsingOverloading.md) <a name="UsingOverloading"></a>
+- Use a standard format for packages that include comment headers for each type of element defined in the package. [(Details)](coding_style/PackageStandard.md) <a name="PackageStandard"></a>
+- Use package body persistent data structures to cache and optimize data-driven processing. [(Details)](coding_style/BodyPersistent.md) <a name="BodyPersistent"></a>
 
 #### Built-in Packages
 
