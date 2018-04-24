@@ -76,15 +76,18 @@
 
 #### Writing SQL in PL/SQL: General SQL and Transaction Management
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Qualify PL/SQL variables with their scope names when referenced inside SQL statements. [(Details)](coding_style/QualifyVariables.md) <a name="QualifyVariables"></a>
+- Use autonomous transactions to isolate the effect of `COMMITs` and `ROLLBACKs`. [(Details)](coding_style/AutoTransaction.md) <a name="AutoTransaction"></a>
+- Use incremental `COMMITs` to avoid rollback segment errors when changing large numbers of rows. [(Details)](coding_style/IncrementalCommit.md) <a name="IncrementalCommit"></a>
 
 #### Writing SQL in PL/SQL: Querying Data from PL/SQL
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Put single-row fetches inside functions; never hard-code a query in your block. [(Details)](coding_style/SingleRowFetch.md) <a name="SingleRowFetch"></a>
+- Hide reliance on the dual table. [(Details)](coding_style/HideDual.md) <a name="HideDual"></a>
+- Define multi-row cursors in packages so they can be used from multiple programs. [(Details)](coding_style/MultiRowFetch.md) <a name="MultiRowFetch"></a>
+- Fetch into cursor records, never into a hard-coded list of variables. [(Details)](coding_style/NeverFetchHard.md) <a name="NeverFetchHard"></a>
+- Use `COUNT` only when the actual number of occurrences is needed. [(Details)](coding_style/CountOnly.md) <a name="CountOnly"></a>
+- Use a cursor `FOR` loop to fetch all rows in a cursor unconditionally. [(Details)](coding_style/CursorForLoop.md) <a name="CursorForLoop"></a>
 
 #### Writing SQL in PL/SQL: Changing Data from PL/SQL
 

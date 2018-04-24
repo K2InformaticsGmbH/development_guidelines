@@ -2,15 +2,15 @@
 
 ## [Centralize `TYPE` definitions in package specifications](../../../../doc/coding/pl_sql/coding_style.md#CentralizeTypes.md)
 
-As you use more and more of the PL/SQL language features, you will define many `TYPE`s of things, including:
+As you use more and more of the PL/SQL language features, you will define many `TYPEs` of things, including:
 
-- `SUBTYPE`s that define application-specific datatypes
--·Collection `TYPE`s, such as lists of numbers, dates, or records
-- Referenced cursor `TYPE`s, from which cursor variables are declared
+- `SUBTYPEs` that define application-specific datatypes
+-·Collection `TYPEs`, such as lists of numbers, dates, or records
+- Referenced cursor `TYPEs`, from which cursor variables are declared
 
-Some of these `TYPE`s can be used unchanged throughout your application; other types are specific to some part of an application but are standard within that.
+Some of these `TYPEs` can be used unchanged throughout your application; other types are specific to some part of an application but are standard within that.
 
-In either case, create a package to hold these standard `TYPE`s, so that they can be used in multiple programs.
+In either case, create a package to hold these standard `TYPEs`, so that they can be used in multiple programs.
 
 #### Example:
 
