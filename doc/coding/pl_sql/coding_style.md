@@ -25,7 +25,7 @@
 - Remove unused variables and code. [(Details)](coding_style/RemoveUnused.md) <a name="RemoveUnused"></a>
 - Replace complex expressions with Boolean variables and functions. [(Details)](coding_style/ComplexBoolean.md) <a name="ComplexBoolean"></a>
 
-#### Variables and Data Structures:     Package Variables
+#### Variables and Data Structures: Package Variables
 
 - Centralize `TYPE` definitions in package specifications. [(Details)](coding_style/CentralizeTypes.md) <a name="CentralizeTypes"></a>
 - Expose package globals using "get and set" modules. [(Details)](coding_style/ExposeGetSet.md) <a name="ExposeGetSet"></a>
@@ -120,8 +120,8 @@
 
 #### Program Construction: Functions
 
-- Limit functions to a single `RETURN` statement in the execution section. [(Details)](coding_style/SingleReturn.md) <a name="SingleReturn"></a>
 - Keep functions pure by avoiding [`IN`] `OUT` parameters. [(Details)](coding_style/PureFunctions.md) <a name="PureFunctions"></a>
+- Limit functions to a single `RETURN` statement in the execution section. [(Details)](coding_style/SingleReturn.md) <a name="SingleReturn"></a>
 - Never return `NULL` from Boolean functions. [(Details)](coding_style/NeverNull.md) <a name="NeverNull"></a>
 
 #### Program Construction: Triggers
