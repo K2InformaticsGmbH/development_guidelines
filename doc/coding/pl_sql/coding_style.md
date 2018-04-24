@@ -53,19 +53,50 @@
 
 #### Exceptions: Raising
 
+- Catch all exceptions and convert to meaningful return codes before returning to non-PL/SQL host programs. [(Details)](coding_style/CatchExceptions.md) <a name="CatchExceptions"></a>
+- Do not overload an exception with multiple errors unless the loss of information is intentional. [(Details)](coding_style/OverloadExceptions.md) <a name="OverloadExceptions"></a>
+- Only `RAISE` exceptions for errors, not to branch execution control. [(Details)](coding_style/OnlyErrors.md) <a name="OnlyErrors"></a>
 - Set guidelines for application-wide error handling before you start coding. [(Details)](coding_style/ExceptionGuide.md) <a name="ExceptionGuide"></a>
+- Use the default exception-handling model to communicate module status back to calling PL/SQL programs. [(Details)](coding_style/DefaultModel.md) <a name="DefaultModel"></a>
+- Use your own raise procedure in place of explicit calls to `RAISE_APPLICATION_ERROR`. [(Details)](coding_style/ApplicationError.md) <a name="ApplicationError"></a>
 
 #### Exceptions: Handling
 
-#### Exceptions: Declarinng
+- Avoid hard-coded exposure of error handling by using standard, declarative procedures. [(Details)](coding_style/AvoidExposure.md) <a name="AvoidExposure"></a>
+- Handle exceptions that cannot be avoided but can be anticipated. [(Details)](coding_style/HandleAvoided.md) <a name="HandleAvoided"></a>
+- Include standardized modules in packages to dump package state when errors occur. [(Details)](coding_style/DumpErrors.md) <a name="DumpErrors"></a>
+- Use `WHEN OTHERS` only for unknown exceptions that need to be trapped. [(Details)](coding_style/WhenOthers.md) <a name="WhenOthers"></a>
+- Use named constants to soft-code application-specific error numbers and messages. [(Details)](coding_style/SoftcodedErrors.md) <a name="SoftcodedErrors"></a>
+
+#### Exceptions: Declaring
+
+- Document all package exceptions by module in package specifications. [(Details)](coding_style/DocuExceptions.md) <a name="DocuExceptions"></a>
+- Standardize named application exceptions in package specifications. [(Details)](coding_style/StdNamedException.md) <a name="StdNamedException"></a>
+- Use the `EXCEPTION_INIT` pragma to name system exceptions that might be raised by your program. [(Details)](coding_style/ExceptionPragma.md) <a name="ExceptionPragma"></a>
 
 #### Writing SQL in PL/SQL: General SQL and Transaction Management
 
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+
 #### Writing SQL in PL/SQL: Querying Data from PL/SQL
+
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
 
 #### Writing SQL in PL/SQL: Changing Data from PL/SQL
 
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+
 #### Writing SQL in PL/SQL: Dynamic SQL and Dynamic PL/SQL
+
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
 
 #### Program Construction: Structure and Parameters
 
@@ -73,7 +104,7 @@
 - Encapsulate and name business rules and formulas behind function headers. [(Details)](coding_style/EncapsulateRules.md) <a name="EncapsulateRules"></a>
 - Limit execution section sizes to a single page using modularization. [(Details)](coding_style/LimitSize.md) <a name="LimitSize"></a>
 - Standardize module structure using function and procedure templates. [(Details)](coding_style/StandardModule.md) <a name="StandardModule"></a>
-- Use `NOCOPY` to minimize overhead when collections and records are [`IN`] `OUT` parameters. [(Details)](NocopyParameter/NocopyParameter.md) <a name="NocopyParameter"></a>
+- Use `NOCOPY` to minimize overhead when collections and records are [`IN`] `OUT` parameters. [(Details)](coding_style/NocopyParameter.md) <a name="NocopyParameter"></a>
 - Use named notation to clarify, self-document, and simplify module calls. [(Details)](coding_style/NamedNotation.md) <a name="NamedNotation"></a>
 
 #### Program Construction: Functions
@@ -105,10 +136,25 @@
 
 #### Built-in Packages: `DBMS_OUTPUT`
 
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+
 #### Built-in Packages: `UTL_FILE`
+
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
 
 #### Built-in Packages: `DBMS_PIPE`
 
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+
 #### Built-in Packages: `DBMS_JOB`
 
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
 
