@@ -97,7 +97,7 @@
 #### Writing SQL in PL/SQL: Changing Data from PL/SQL
 
 - Check `SQL%ROWCOUNT` when updating or removing data that "should" be there. [(Details)](coding_style/CheckUpdating.md) <a name="CheckUpdating"></a>
-- Encapsulate INSERT, UPDATE, and DELETE statements behind procedure calls. [(Details)](coding_style/EncasulateIUD.md) <a name="EncapsulateIUD"></a>
+- Encapsulate INSERT, UPDATE, and DELETE statements behind procedure calls. [(Details)](coding_style/EncapsulateIUD.md) <a name="EncapsulateIUD"></a>
 - Reference cursor attributes immediately after executing the SQL operation. [(Details)](coding_style/RefCursorAttr.md) <a name="RefCursorAttr"></a>
 - Use `FORALL` to improve performance of collection-based DML. [(Details)](coding_style/UseForAll.md) <a name="UseForAll"></a>
 
