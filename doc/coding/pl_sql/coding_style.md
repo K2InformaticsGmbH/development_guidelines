@@ -25,7 +25,7 @@
 - Remove unused variables and code. [(Details)](coding_style/RemoveUnused.md) <a name="RemoveUnused"></a>
 - Replace complex expressions with Boolean variables and functions. [(Details)](coding_style/ComplexBoolean.md) <a name="ComplexBoolean"></a>
 
-#### Variables and Data Structures:     Package Variables
+#### Variables and Data Structures: Package Variables
 
 - Centralize `TYPE` definitions in package specifications. [(Details)](coding_style/CentralizeTypes.md) <a name="CentralizeTypes"></a>
 - Expose package globals using "get and set" modules. [(Details)](coding_style/ExposeGetSet.md) <a name="ExposeGetSet"></a>
