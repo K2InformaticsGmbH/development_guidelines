@@ -82,24 +82,32 @@
 
 #### Writing SQL in PL/SQL: Querying Data from PL/SQL
 
-- Put single-row fetches inside functions; never hard-code a query in your block. [(Details)](coding_style/SingleRowFetch.md) <a name="SingleRowFetch"></a>
-- Hide reliance on the dual table. [(Details)](coding_style/HideDual.md) <a name="HideDual"></a>
 - Define multi-row cursors in packages so they can be used from multiple programs. [(Details)](coding_style/MultiRowFetch.md) <a name="MultiRowFetch"></a>
 - Fetch into cursor records, never into a hard-coded list of variables. [(Details)](coding_style/NeverFetchHard.md) <a name="NeverFetchHard"></a>
+- Hide reliance on the dual table. [(Details)](coding_style/HideDual.md) <a name="HideDual"></a>
+- Never use a cursor `FOR` loop to fetch just one row. [(Details)](coding_style/Fetch1Row.md) <a name="Fetch1Row"></a>
+- Parameterize explicit cursors. [(Details)](coding_style/ParamExplCursors.md) <a name="ParamExplCursors"></a>
+- Put single-row fetches inside functions; never hard-code a query in your block. [(Details)](coding_style/SingleRowFetch.md) <a name="SingleRowFetch"></a>
+- Specify columns to be updated in a `SELECT FOR UPDATE` statement. [(Details)](coding_style/SelectForUpdate.md) <a name="SelectForUpdate"></a>
+- Use `BULK COLLECT` to improve performance of multi-row queries. [(Details)](coding_style/UseBulkCollect.md) <a name="UseBulkCollect"></a>
 - Use `COUNT` only when the actual number of occurrences is needed. [(Details)](coding_style/CountOnly.md) <a name="CountOnly"></a>
+- Use `RETURNING` to retrieve information about modified rows. [(Details)](coding_style/ReturningMod.md) <a name="ReturningMod"></a>
 - Use a cursor `FOR` loop to fetch all rows in a cursor unconditionally. [(Details)](coding_style/CursorForLoop.md) <a name="CursorForLoop"></a>
 
 #### Writing SQL in PL/SQL: Changing Data from PL/SQL
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Check `SQL%ROWCOUNT` when updating or removing data that "should" be there. [(Details)](coding_style/CheckUpdating.md) <a name="CheckUpdating"></a>
+- Encapsulate INSERT, UPDATE, and DELETE statements behind procedure calls. [(Details)](coding_style/EncasulateIUD.md) <a name="EncapsulateIUD"></a>
+- Reference cursor attributes immediately after executing the SQL operation. [(Details)](coding_style/RefCursorAttr.md) <a name="RefCursorAttr"></a>
+- Use `FORALL` to improve performance of collection-based DML. [(Details)](coding_style/UseForAll.md) <a name="UseForAll"></a>
 
 #### Writing SQL in PL/SQL: Dynamic SQL and Dynamic PL/SQL
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- Apply the invoker rights method to all stored code that executes dynamic SQL. [(Details)](coding_style/ApplyInvoker.md) <a name="ApplyInvoker"></a>
+- Bind, do not concatenate, variable values into dynamic SQL strings. [(Details)](coding_style/BindVariableValues.md) <a name="BindVariableValues"></a>
+- Encapsulate dynamic SQL parsing to improve error detection and cleanup. [(Details)](coding_style/EncapsulateDynamic.md) <a name="EncapsulateDynamic"></a>
+- Format dynamic SQL strings so they can be easily read and maintained. [(Details)](coding_style/FormatDynamic.md) <a name="FormatDynamic"></a>
+- Soft-code the maximum length of columns in `DBMS_SQL.DEFINE_COLUMN` calls. [(Details)](coding_style/SoftMaxLengths.md) <a name="SoftMaxLengths"></a>
 
 #### Program Construction: Structure and Parameters
 
@@ -139,25 +147,25 @@
 
 #### Built-in Packages: `DBMS_OUTPUT`
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
 
 #### Built-in Packages: `UTL_FILE`
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
 
 #### Built-in Packages: `DBMS_PIPE`
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
 
 #### Built-in Packages: `DBMS_JOB`
 
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
-- Anchor variables to database datatypes using `%TYPE` and `%ROWTYPE`. [(Details)](coding_style/AnchorTypes.md) <a name="AnchorTypes"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
+- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
 
