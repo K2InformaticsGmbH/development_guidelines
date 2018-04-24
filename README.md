@@ -22,9 +22,9 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 - Adopt a consistent format that is easy to read and maintain.
 - Adopt consistent naming conventions.
 - Comment tersely with value-added information.
-- Test your programs thoroughly, and as automatically as possible. 
-- Follow the test-driven development methodology.
 - Don't worry about  getting to 100% test coverage - 99% will do.
+- Follow the test-driven development methodology.
+- Test your programs thoroughly, and as automatically as possible. 
 - Use source code debuggers to hunt down the cause of bugs.
 
 [//]: # (### &ensp; Erlang <a name="coding_erlang"></a>)
@@ -33,7 +33,13 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 #### &ensp;&ensp;&ensp; [Coding Style](doc/coding/pl_sql/coding_style.md) <a name="coding_pl_sql_coding_style"></a>
 
+#### &ensp;&ensp;&ensp; [Coding Templates](doc/coding/pl_sql/coding_templates.md) <a name="coding_pl_sql_coding_templates"></a>
+
+#### &ensp;&ensp;&ensp; [Error Handling](doc/coding/pl_sql/error_handling.md) <a name="coding_pl_sql_error_handling"></a>
+
 #### &ensp;&ensp;&ensp; [Naming Conventions](doc/coding/pl_sql/naming_conventions.md) <a name="coding_pl_sql_naming_conventions"></a>
+
+#### &ensp;&ensp;&ensp; [Unit Testing](doc/coding/pl_sql/unit_testing.md) <a name="coding_pl_sql_unit_testing"></a>
 
 ## 3. Continuous Integration <a name="continuous_integration"></a>
 
