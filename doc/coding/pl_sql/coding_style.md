@@ -120,8 +120,8 @@
 
 #### Program Construction: Functions
 
-- Limit functions to a single `RETURN` statement in the execution section. [(Details)](coding_style/SingleReturn.md) <a name="SingleReturn"></a>
 - Keep functions pure by avoiding [`IN`] `OUT` parameters. [(Details)](coding_style/PureFunctions.md) <a name="PureFunctions"></a>
+- Limit functions to a single `RETURN` statement in the execution section. [(Details)](coding_style/SingleReturn.md) <a name="SingleReturn"></a>
 - Never return `NULL` from Boolean functions. [(Details)](coding_style/NeverNull.md) <a name="NeverNull"></a>
 
 #### Program Construction: Triggers
@@ -144,28 +144,3 @@
 - Simplify and encourage module usage using overloading to widen calling options. [(Details)](coding_style/UsingOverloading.md) <a name="UsingOverloading"></a>
 - Use a standard format for packages that include comment headers for each type of element defined in the package. [(Details)](coding_style/PackageStandard.md) <a name="PackageStandard"></a>
 - Use package body persistent data structures to cache and optimize data-driven processing. [(Details)](coding_style/BodyPersistent.md) <a name="BodyPersistent"></a>
-
-#### Built-in Packages: `DBMS_OUTPUT`
-
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-
-#### Built-in Packages: `UTL_FILE`
-
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-
-#### Built-in Packages: `DBMS_PIPE`
-
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-
-#### Built-in Packages: `DBMS_JOB`
-
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-- xxx. [(Details)](coding_style/yyy.md) <a name="yyy"></a>
-
