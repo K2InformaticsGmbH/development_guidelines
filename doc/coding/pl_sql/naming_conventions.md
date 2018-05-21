@@ -22,7 +22,6 @@ Any other SQL | sql
 
 #### Must
 
-- The total **length** of an identifier name is limited to 30 characters.
 - Make **plural** anything that contains multiple pieces of information. 
 - Name **procedures** with verb phrases and **functions** with noun phrases.
 - If you have more than one **record** declared for a single cursor, preface the record name with a word that describes it,
