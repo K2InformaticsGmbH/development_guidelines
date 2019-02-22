@@ -1,6 +1,6 @@
-[Development Guidelines](../../../README.md) / [Coding](../../../README.md#coding) / [PL/SQL](../../../README.md#coding_pl_sql)
+[Development Guidelines](../../../README.md) / [Version Control](../../../README.md#version_control) / [GitHub](../../../README.md#github)
 
-## [Naming Conventions](../../../README.md#coding_pl_sql_naming_conventions)
+## [Badges](../../../README.md#version_control_github)
 
 ### 1 File Names
 
