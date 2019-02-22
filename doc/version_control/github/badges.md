@@ -13,12 +13,16 @@ The badges used below are based on the free service [shields.io](https://shields
 The necessary program code in the `readme.md` file:
 
 ```markdown
+# plsql_parser - LALR grammar based PL/SQL parser
+
 ![Travis (.org)](https://img.shields.io/travis/K2InformaticsGmbH/plsql_parser.svg)
 ![Coveralls github](https://img.shields.io/coveralls/github/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub](https://img.shields.io/github/license/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub release](https://img.shields.io/github/release/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/K2InformaticsGmbH/plsql_parser/1.2.0.svg)
+
+**plsql_parser** is a production-ready SQL parser written in pure Erlang. ...
 ```
 
 The result in the repository:
