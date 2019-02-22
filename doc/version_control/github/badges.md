@@ -13,16 +13,12 @@ The badges used below are based on the free service [shields.io](https://shields
 The necessary program code in the `readme.md` file:
 
 ```markdown
-# plsql_parser - LALR grammar based PL/SQL parser
-
 ![Travis (.org)](https://img.shields.io/travis/K2InformaticsGmbH/plsql_parser.svg)
 ![Coveralls github](https://img.shields.io/coveralls/github/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub](https://img.shields.io/github/license/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub release](https://img.shields.io/github/release/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/K2InformaticsGmbH/plsql_parser.svg)
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/K2InformaticsGmbH/plsql_parser/1.2.0.svg)
-
-**plsql_parser** is a production-ready SQL parser written in pure Erlang. ...
 ```
 
 The result in the repository:
@@ -42,8 +38,8 @@ The result in the repository:
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/K2InformaticsGmbH/repository/version.svg)
 ```
 
-- Replace the string `repository` with the name of your repository.
-- Replace the string `version` with the current release number.
+- Replace the string `'repository'` with the name of your repository.
+- Replace the string `'version'` with the current release number.
 
 ----
 
@@ -51,8 +47,8 @@ The result in the repository:
 
 1. The badges are in the `readme.md` file and if the `wiki` exists in the `home.md` file.
 2. The badges are placed directly after the headline.
-3. The `Coveralls github` badge is omitted if no code coverage is established.
-4. The version number in the `GitHub commits since latest release` badge has to be changed manually for a new release.
+3. The `'Coveralls github'` badge is omitted if no code coverage is established.
+4. The version number in the `'GitHub commits since latest release'` badge has to be changed manually for a new release.
 
 ----
 
