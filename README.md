@@ -55,7 +55,7 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 ### &ensp; GitHub <a name="version_control_github"></a>
 
-#### &ensp;&ensp;&ensp; [Badges](doc/vesion_control/github/basdges.md) <a name="coding_pl_sql_unit_testing"></a>
+#### &ensp;&ensp;&ensp; [Badges](doc/vesion_control/github/badges.md) <a name="version_control_github_badges"></a>
 
 ## Appendix: References
 
