@@ -11,7 +11,7 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 ## 1. Building <a name="building"></a>
 
-&ensp; TBD
+&ensp;&ensp;&ensp;&ensp; TBD
 
 [//]: # (### &ensp; rebar3 <a name="building_rebar3"></a>)
 
@@ -45,15 +45,17 @@ Development guidelines for the open source projects of K2 Informatics GmbH.
 
 ### &ensp; Travis CI <a name="continuous_integration_travis_ci"></a>
 
-#### &ensp;&ensp;&ensp; [Erlang](doc/continuous_integration/travis_ci/erlang.md) <a name="continuous_integration_travis_ci_erlang"></a> 
+&ensp;&ensp;&ensp;&ensp; TBD
 
 ## 4. Version Control <a name="version_control"></a>
 
-&ensp; TBD
-
-[//]: # (### &ensp; Git <a name="version_control_git"></a>)
+### &ensp; Git <a name="version_control_git"></a>
  
-[//]: # (### &ensp; GitHub <a name="version_control_github"></a>)
+&ensp;&ensp;&ensp;&ensp; TBD
+
+### &ensp; GitHub <a name="version_control_github"></a>
+
+#### &ensp;&ensp;&ensp; [Badges](doc/version_control/github/badges.md) <a name="version_control_github_badges"></a>
 
 ## Appendix: References
 

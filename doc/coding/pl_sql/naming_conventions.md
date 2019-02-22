@@ -2,7 +2,7 @@
 
 ## [Naming Conventions](../../../README.md#coding_pl_sql_naming_conventions)
 
-### File Names
+### 1 File Names
 
 File Type | Extension
 :--------- | :---------:
@@ -18,9 +18,9 @@ Any other SQL | sql
 
 ----
 
-### Identifier Names
+### 2 Identifier Names
 
-#### Must
+#### 2.1 Must
 
 - The total **length** of an identifier name is limited to 30 characters.
 - Make **plural** anything that contains multiple pieces of information. 
@@ -32,7 +32,7 @@ Any other SQL | sql
 
 ----
 
-#### Avoid
+#### 2.2 Avoid
 
 - Using names like `i` and `j`.
 - Including an indicator of the **datatype** in the name, as in `g_i_counter`.
@@ -68,11 +68,12 @@ Naming convention | Type of identifier | Example
 
 ----
 
-#### Standard prefixes for procedure verb names
+#### 2.3 Standard prefixes for procedure verb names
 
 Prefix | Procedure activity 
-:----- | :-----------------
+:----- | :------------------
 `chk_` | validates something
+`cre_` | creates something
 `del_` | deletes something
 `get_` | selects something
 `ins_` | inserts something
